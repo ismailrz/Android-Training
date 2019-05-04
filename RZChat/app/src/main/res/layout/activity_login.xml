@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <include
+        android:id="@+id/appBarId"
+        layout="@layout/app_bar_layout" />
+
+    <TextView
+        android:id="@+id/login_textViewId"
+        android:textSize="30sp"
+        android:text="@string/login_in_your_account"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/login_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:layout_margin="10sp"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <EditText
+        android:id="@+id/login_password_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:layout_margin="10sp"
+        android:inputType="textPassword"
+
+
+        />
+
+    <Button
+        android:id="@+id/login_create_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:padding="15sp"
+        android:layout_margin="10sp"
+        android:background="@color/colorAccent"
+        />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+buildscript {
+  ext {
+    kotlinVersion = '1.2.71'
+    daggerVersion = '2.17'
+    androidxVersion = '1.0.0'
+    espressoVersion = '3.1.0-beta02'
+    okhttpVersion = '3.11.0'
+
+    deps = [
+        android: [
+            build: [
+                minSdkVersion    : 14,
+                targetSdkVersion : 28,
+                compileSdkVersion: 28
+            ]
+        ],
+        kotlin: [
+            stdlib: "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}"
+        ],
+        dagger: [
+            apt: "com.google.dagger:dagger-compiler:${daggerVersion}",
+            runtime: "com.google.dagger:dagger:${daggerVersion}"
+        ]
+    ]
+  }
+
+  repositories {
+    google()
+    jcenter()
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url 'https://plugins.gradle.org/m2/' }
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:3.3.0-beta01'
+    classpath "io.fabric.tools:gradle:1.26.1"
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    classpath "net.ltgt.gradle:gradle-errorprone-plugin:0.0.13"
+  }
+}
+
+allprojects {
+  repositories {
+    google()
+    jcenter()
+    maven { url 'https://maven.fabric.io/public' }
+  }
+}

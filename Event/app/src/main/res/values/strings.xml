@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">Event</string>
+    <string name="call">Make Call</string>
+    <string name="message">Send Message</string>
+    <string name="ActionBar"></string>
+    <string name="title">Alert Title</string>
+    <string name="AlertMessage">Are You Sure To Exit ?</string>
+    <string-array name="name">
+        <item>Md.Al-amin</item>
+        <item>Al-amin2</item>
+        <item>Md.Isamil</item>
+        <item>Al-Mamun</item>
+        <item>Mukut</item>
+        <item>Shishir</item>
+        <item>Shaama</item>
+        <item>Shuvo</item>
+        <item>Sourav</item>
+        <item>Toufiq</item>
+        <item>Zunnun</item>
+        <item>Riad</item>
+        <item>Hasan</item>
+        <item>Hassanuzzaman</item>
+        <item>Noyon</item>
+        <item>Noman</item>
+        <item>Shohag</item>
+        <item>Shahidul</item>
+        <item>Shaon</item>
+        <item>Shariful</item>
+        <item>Muminul</item>
+        <item>Nazmul</item>
+        <item>Omar</item>
+        <item>Muhim</item>
+
+    </string-array>
+    <string name="alamin">
+            Name: Md. Al-amin\n
+            Blood Group : B+ \n
+            Phone: 01738088967\n
+            Email: alamincse039@gmail.com\n
+            District: Joypurhat.
+    </string>
+        <string name="alamin2">
+            Name: Al-amin Hossain\n
+            Blood Group : O+ \n
+            Phone: 01750829289\n
+            Email: alamincse14@gmail.com\n
+            District: Rangpur.
+        </string>
+        <string name="ismail">
+            Name: Md. Ismail\n
+            Blood Group : AB+ \n
+            Phone: 01743557172\n
+            Email: ismailcse14@gmail.com\n
+            District: Rajshahi.
+        </string>
+        <string name="mamun">
+            Name: Al-Mamun Shafi\n
+            Blood Group : B+ \n
+            Phone: 01755339741\n
+            Email: csemamun50@gmail.com\n
+            District: Rangpur.
+        </string>
+        <string name="mukut">
+            Name: Mazharul Islam (Mukut)\n
+            Blood Group : B+ \n
+            Phone: 01786044933\n
+            Email: mukut@gmail.com\n
+            District: Rajshahi.
+        </string>
+        <string name="saddam">
+            Name: Saddam Hoassain (Shishir)\n
+            Blood Group : B+ \n
+            Phone: 01723706098\n
+            Email: sddamhossain@gmail.com\n
+            District: Lalmunirhat.
+        </string>
+        <string name="shama">
+            Name: Shama porsahd Mollik\n
+            Blood Group : O+ \n
+            Phone: 01753027187\n
+            Email: shyama.cse1402049@gmail.com\n
+            District: Khulna.
+        </string>
+        <string name="shovo">
+            Name: Mehedi Hasan (Shuvo)\n
+            Blood Group : B+ \n
+            Phone: 01774415361\n
+            Email: mehedihasan@gmail.com\n
+            District: Thakurgaon.
+        </string>
+        <string name="sourav">
+            Name: Rafiuzzaman Saourav\n
+            Blood Group : A+ \n
+            Phone: 01740428659\n
+            Email: rafuzzaman@gmail.com\n
+            District: Gaibandha.
+        </string>
+        <string name="toufiq">
+            Name: S.A Toufiq\n
+            Blood Group : B+ \n
+            Phone: 01521470348\n
+            Email: satoufique@gmail.com\n
+            District: Gazipur.
+        </string>
+        <string name="zunnun">
+            Name: Zunnun Rahman\n
+            Blood Group : B+ \n
+            Phone: 01765123122\n
+            Email: zunnuncse14@gmail.com\n
+            District: Naogaon.
+        </string>
+    <string name="riad">
+            Name: Riad Majumdar\n
+            Blood Group : B+ \n
+            Phone: 01849766406\n
+            Email: majumdarriadcse@gmail.com\n
+            District: Chandpur.
+        </string>
+    <string name="hasan3">
+            Name: Md.Hasan\n
+            Blood Group : O- \n
+            Phone: 01742835323\n
+            Email: mdhasan@gmail.com\n
+            District: Jossor.
+        </string>
+    <string name="hasan2">
+            Name: Hasanuzzaman Hasan\n
+            Blood Group : B+ \n
+            Phone: 01760697423\n
+            Email: hasanuzzaman@gmail.com\n
+            District: Mymensingh.
+        </string>
+    <string name="noyon">
+            Name: Nazmul Hossain (Noyon)\n
+            Blood Group : B+ \n
+            Phone: 01761376058\n
+            Email: nazmulnoyon@gmail.com\n
+            District: Lalmunirhat.
+        </string>
+    <string name="noman">
+            Name: Abdullah Al-noman\n
+            Blood Group : B+ \n
+            Phone: 01738148344\n
+            Email: nomancse14@gmail.com\n
+            District: Bogura.
+        </string>
+    <string name="shohag">
+            Name: N.A Shohag\n
+            Blood Group : B+ \n
+            Phone: 01740153311\n
+            Email: nashohag@gmail.com\n
+            District: Kurigram.
+        </string>
+    <string name="shahidul">
+            Name: Shahidul Islam\n
+            Blood Group : B+ \n
+            Phone: 01765123122\n
+            Email: shahidul@gmail.com\n
+            District: Dinajpur.
+        </string>
+    <string name="shaon">
+            Name: Shaon Ahamed\n
+            Blood Group : B+ \n
+            Phone: 01738088967\n
+            Email: shaon.cse14@gmail.com\n
+            District: Dinajpur.
+        </string>
+    <string name="shariful">
+            Name: Shariful Islam\n
+            Blood Group : B+ \n
+            Phone: 01780510023\n
+            Email: shariful@gmail.com\n
+            District: Thakurgaon.
+        </string>
+    <string name="muminul">
+            Name: Muminul Haque\n
+            Blood Group : AB+ \n
+            Phone: 01515256993\n
+            Email: mamunulhaque@gmail.com\n
+            District: Thakurgaon.
+        </string>
+    <string name="nazmul">
+            Name: Nazmul Hossain\n
+            Blood Group : B+ \n
+            Phone: 01736586106\n
+            Email: nazmulcse@gmail.com\n
+            District: Rangpur.
+        </string>
+    <string name="omar">
+            Name: Omar Faruk\n
+            Blood Group : O+ \n
+            Phone: 01748705950\n
+            Email: omarfaruk@gmail.com\n
+            District: Gaibandha.
+        </string>
+    <string name="muhim">
+            Name: Moshiur Rahman(Muhim)\n
+            Blood Group : B+ \n
+            Phone: 01754686599\n
+            Email: muhimcse@gmail.com\n
+            District: Dhaka.
+        </string>
+
+</resources>

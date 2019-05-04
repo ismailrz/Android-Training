@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:weightSum="5"
+    android:padding="10dp"
+    tools:context=".Feedback_Activity">
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <EditText
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#FFF7DFDF"
+            android:hint="Enter Name"
+            android:id="@+id/nameId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <EditText
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#FFF7DFDF"
+            android:hint="Enter Email"
+            android:id="@+id/emailId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#FFF7DFDF"
+            android:hint="Enter Feedback"
+            android:id="@+id/textFeedbackId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#FFF7DFDF"
+            android:text="SEND"
+            android:id="@+id/sendBattonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#FFF7DFDF"
+            android:text="CLEAR"
+            android:id="@+id/clearBattonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="4"
+        android:id="@+id/linreaLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+        
+        <ImageView
+
+            android:layout_weight="1"
+            android:id="@+id/imageViewId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/afghanistan"
+            />
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country List"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/textViewId2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click here to Details......"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_horizontal"
+                />
+
+
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

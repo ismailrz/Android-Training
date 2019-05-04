@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="10sp"
+    android:paddingLeft="10sp"
+    android:weightSum="5"
+    android:background="@drawable/background2"
+    tools:context=".DeatailsActivity">
+
+    <ImageView
+        android:id="@+id/detailImageId"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:scaleType="fitXY"
+        android:layout_width="190dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/detaiTextId"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textIsSelectable="true"
+        android:textColor="#002041"
+        android:textSize="19dp"
+        android:layout_marginBottom="18dp"
+        />
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+        <Button
+            android:id="@+id/callButtonId"
+            android:layout_weight=".4"
+            android:textColor="#ffff"
+            android:textSize="22dp"
+            android:background="@color/green"
+            android:layout_marginTop="0dp"
+            android:text="@string/call"
+            android:layout_width="222dp"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            />
+
+        <Button
+            android:id="@+id/smsButtonId"
+            android:layout_weight=".4"
+            android:textColor="#ffff"
+            android:textSize="22dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="17dp"
+            android:text="@string/message"
+            android:layout_gravity="center"
+            android:layout_width="222dp"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+</LinearLayout>

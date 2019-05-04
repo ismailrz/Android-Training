@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SpinnerDemo</string>
+
+    <string-array name="countryName">
+
+        <item>Afghanistan</item>
+        <item>Armenia</item>
+        <item> Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Brunei</item>
+        <item>Myanmar</item>
+        <item>Cambodia</item>
+
+
+    </string-array>
+</resources>

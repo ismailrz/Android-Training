@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "341918171005",
+    "firebase_url": "https://rzchat-a5199.firebaseio.com",
+    "project_id": "rzchat-a5199",
+    "storage_bucket": "rzchat-a5199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341918171005:android:f6412f500b6397a4",
+        "android_client_info": {
+          "package_name": "com.example.ismai.rzchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341918171005-vksat51k9qeaeldiqg049ekavi8td0dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ismai.rzchat",
+            "certificate_hash": "b913fd93df91f577f694744f72e0e333ab93c9e0"
+          }
+        },
+        {
+          "client_id": "341918171005-5fkpqpq024f0qggqk9plv21732grpot9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMg_KoHq3A9oTkBhuJBUqsZOZugD6D-C4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341918171005-5fkpqpq024f0qggqk9plv21732grpot9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

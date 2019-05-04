@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinnerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Button
+        android:layout_margin="20dp"
+        android:text="Print"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/textViewId"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

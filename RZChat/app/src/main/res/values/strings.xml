@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RZ Chat</string>
+    <string name="need_a_new_acount">Need a new Acount</string>
+    <string name="display_name">Display name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_out">Log out</string>
+    <string name="account_setting">Account setting</string>
+    <string name="all_users">All Users</string>
+    <string name="welcome_to_rz_chat_apps">Welcome to RZ Chat Apps</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="login_in_your_account">Login in your account</string>
+    <string name="login">Login</string>
+</resources>
